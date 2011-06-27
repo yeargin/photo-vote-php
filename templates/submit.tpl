@@ -10,7 +10,7 @@
 <p>
 	Your photo was uploaded!
 </p>
-{p}
+{/if}
 
 {if $twitterAuthenticated eq true}
 <form method="post" enctype="multipart/form-data">
