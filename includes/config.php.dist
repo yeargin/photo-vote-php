@@ -1,0 +1,30 @@
+<?php
+
+// Debug Mode
+define('DEBUG', false);
+
+// Twitter Config
+define('TWITTER_API_KEY', 'API_KEY_HERE');
+define('TWITTER_CLIENT_ID', 'CLIENT_ID_HERE');
+define('TWITTER_CLIENT_SECRET', 'CLIENT_SECRET_HERE');
+
+// Administration Prefrences
+define('NEW_PHOTO_NOTIFY', 'email@example.com');
+
+// Database Config
+define('DB_READ_HOST', '127.0.0.1');
+define('DB_WRITE_HOST', '127.0.0.1');
+define('DB_NAME', 'dev_bs_project');
+define('DB_READ_USERNAME', 'root');
+define('DB_WRITE_USERNAME', 'root');
+define('DB_READ_PASSWORD', '');
+define('DB_WRITE_PASSWORD', '');
+define('DB_ON_ERROR', 'die');
+define('DB_EMAIL_ON_ERROR', 'email@example.com');
+
+// Paths
+define('DOC_ROOT', realpath( dirname(__FILE__) ) . '/..');
+define('BASE_URL', 'http://example.com');
+
+// Custom Stuff
+//define('ANALYTICS_CODE', '');
