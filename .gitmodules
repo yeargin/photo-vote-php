@@ -1,3 +1,3 @@
-[submodule "twitterasync"]
-	path = vendor/twitter-async
-	url = git://github.com/jmathai/twitter-async.git
+[submodule "vendor/twitter-async"]
+    path = vendor/twitter-async
+    url = git://github.com/jmathai/twitter-async.git
