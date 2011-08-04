@@ -2,7 +2,7 @@
 
 require DOC_ROOT . '/vendor/smarty3/libs/Smarty.class.php';
 
-class TripitShareSmarty extends Smarty {
+class PhotoVoteSmarty extends Smarty {
 	
 	function __construct() {
     parent::__construct();

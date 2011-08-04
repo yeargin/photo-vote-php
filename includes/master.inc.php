@@ -18,7 +18,7 @@ session_start();
 $DB = Database::getDatabase();
 
 // Smarty
-$Smarty = new TripitShareSmarty;
+$Smarty = new PhotoVoteSmarty;
 $Smarty->assign('base_url', BASE_URL);
 if (defined('DEBUG')):
 	$Smarty->debugging = DEBUG;
